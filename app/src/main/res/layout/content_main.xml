@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/App_Title_Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#089caf"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="Project Drop-Bot"
+        android:textColor="#1b08af"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Services_Home"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/App_Title_Home"
+        android:background="#0848af"
+        android:text="Services"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/contact_home"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/App_Title_Home"
+        android:background="#0848af"
+        android:text="Contact/Order"
+        android:textColor="#ffffff" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/Founder_full"
+    android:layout_below="@+id/contact_home">
+
+
+    <TextView
+        android:id="@+id/Founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:paddingLeft="16dp"
+        android:paddingRight="8dp"
+        android:text="The Founder"
+        android:textColor="#1b08af"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Founder_Info"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:
+
+        android:text="Having earned 1/4 of a degree of a mechanical engineerig degree and 100% of the passion needed, our founder, Kendus Tisdale-Jeffries, has put thousands of hours into studying and developing his craft "
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/Founder_full"
+    android:id= "@+id/Mission">
+    <TextView
+        android:id="@+id/mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:layout_weight="1"
+        android:text="Our Mission"
+        android:textColor="#1b08af"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mission_Info"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mission"
+        android:paddingLeft="10dp"
+        android:text="Our mission is to provide a speedy, convinient, and hassle-free delivery service at the highest possible quality"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/Mission"
+    >
+
+    <TextView
+        android:id="@+id/About_Us_Home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#089caf"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="About Us"
+        android:textColor="#1b08af"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="WE are a group dedicated to quick and easy product delivery through the usage of advanced drone technology.  We use top of the line software and hardware  to allow efficent and safe transport of goods with our autonomous vehicles."
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="Button" />
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>
